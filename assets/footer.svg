@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="Thanks for visiting">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#C8A032" stop-opacity="0"/><stop offset=".5" stop-color="#64B4FF"/><stop offset="1" stop-color="#C8A032" stop-opacity="0"/></linearGradient></defs>
+  <style>
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+  @keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 14; opacity: 0; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(60px, 30px); } }
+  @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-50px, -25px); } }
+  @keyframes sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+  .fu { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+ .sw { animation: sweep 5s ease-in-out infinite; }</style>
+  <rect x="0" y="8" width="1200" height="1" fill="#232A36"/>
+  <rect class="sw" x="0" y="8" width="1200" height="1" fill="url(#g)"/>
+  <text x="600" y="48" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2" fill="#8B94A3">THANKS FOR VISITING · LET'S BUILD SOMETHING</text>
+</svg>
