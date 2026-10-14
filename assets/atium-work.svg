@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="54 merged pull requests at ATIUM Sports, May to October 2026: 32 on the web platform, 22 on the ATIUM Assets mobile app, all reviewed by the team.">
+  <style>
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+  @keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 14; opacity: 0; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(60px, 30px); } }
+  @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-50px, -25px); } }
+  @keyframes sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+  .fu { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+  .live { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ring 2s ease-out infinite; }
+
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .bar { transform-origin: 48px 0; animation: grow 1.4s .5s cubic-bezier(.2,.7,.2,1) both; }
+  </style>
+  <rect x=".5" y=".5" width="1199" height="229" rx="18" fill="#10141B" stroke="#232A36"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text class="fu" x="48" y="52" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#8B94A3">ATIUM SPORTS · MAY – OCT 2026 · ALL TEAM-REVIEWED</text>
+    
+    <g class="fu" style="animation-delay:0.15s">
+      <text x="48" y="124" font-size="56" font-weight="700" letter-spacing="-1" fill="#E8ECF2">54</text>
+      <text x="48" y="148" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#8B94A3">MERGED PULL REQUESTS</text>
+    </g>
+    <g class="fu" style="animation-delay:0.27s">
+      <text x="420" y="124" font-size="56" font-weight="700" letter-spacing="-1" fill="#C8A032">32</text>
+      <text x="420" y="148" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#8B94A3">WEB PLATFORM</text>
+    </g>
+    <g class="fu" style="animation-delay:0.39s">
+      <text x="700" y="124" font-size="56" font-weight="700" letter-spacing="-1" fill="#64B4FF">22</text>
+      <text x="700" y="148" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#8B94A3">MOBILE APP</text>
+    </g>
+    <rect x="48" y="172" width="1104" height="10" rx="5" fill="#FFFFFF" fill-opacity=".05"/>
+    <g class="bar">
+      <rect x="48" y="172" width="652" height="10" rx="5" fill="#C8A032"/>
+      <rect x="704" y="172" width="448" height="10" rx="5" fill="#64B4FF"/>
+    </g>
+    <g class="fu" style="animation-delay:1.2s" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#8B94A3">
+      <circle cx="53" cy="205.8" r="5" fill="#C8A032"/>
+      <text x="64" y="210">WEB PLATFORM</text>
+      <circle cx="709" cy="205.8" r="5" fill="#64B4FF"/>
+      <text x="720" y="210">ATIUM ASSETS APP</text>
+    </g>
+  </g>
+</svg>
