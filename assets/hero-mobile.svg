@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="660" viewBox="0 0 540 660" role="img" aria-label="Sujan Anandh, Frontend Developer Intern at ATIUM Sports">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1219"/><stop offset="1" stop-color="#0B0E14"/></linearGradient>
+    <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C8A032"/><stop offset=".5" stop-color="#64B4FF"/><stop offset="1" stop-color="#C8A032" stop-opacity=".1"/></linearGradient>
+    <linearGradient id="nameG" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C9D6E8"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" opacity=".06"/></pattern>
+    <clipPath id="clip"><rect width="540" height="660" rx="18"/></clipPath>
+  </defs>
+  <style>
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+  @keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 14; opacity: 0; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(60px, 30px); } }
+  @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-50px, -25px); } }
+  @keyframes sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+  .fu { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+  .live { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ring 2s ease-out infinite; }
+
+    @keyframes role {
+    0% { opacity: 0; transform: translateY(10px); }
+    3.00% { opacity: 1; transform: none; }
+    22.00% { opacity: 1; transform: none; }
+    25.00% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 0; }
+  }
+  .r0 { animation: role 10s 0s infinite both; }
+  .r1 { animation: role 10s 2.5s infinite both; }
+  .r2 { animation: role 10s 5s infinite both; }
+  .r3 { animation: role 10s 7.5s infinite both; }
+    .o1 { animation: drift1 14s ease-in-out infinite; }
+    .o2 { animation: drift2 18s ease-in-out infinite; }
+    .spin { transform-origin: 270px 150px; animation: spin 10s linear infinite; }
+    .spinR { transform-origin: 270px 150px; animation: spin 16s linear infinite reverse; }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="540" height="660" fill="url(#bg)"/>
+    <g filter="url(#blur)">
+      <circle class="o1" cx="81" cy="40" r="170" fill="#C8A032" opacity=".22"/>
+      <circle class="o2" cx="459" cy="620" r="200" fill="#64B4FF" opacity=".20"/>
+    </g>
+    <rect width="540" height="660" fill="url(#dots)"/>
+  </g>
+  <rect x=".5" y=".5" width="539" height="659" rx="18" fill="none" stroke="#232A36"/>
+  <g class="fu" style="animation-delay:.3s">
+    <circle cx="270" cy="150" r="100.3" fill="none" stroke="#232A36" stroke-dasharray="2 8"/>
+    <g class="spinR"><circle cx="270" cy="150" r="100.3" fill="none" stroke="#64B4FF" stroke-opacity=".5" stroke-width="2" stroke-dasharray="34 700" stroke-linecap="round"/></g>
+    <g class="spin"><circle cx="270" cy="150" r="81.6" fill="none" stroke="url(#ringG)" stroke-width="3"/></g>
+    <circle cx="270" cy="150" r="71.39999999999999" fill="#10141B" stroke="#232A36"/>
+    <text x="270" y="165.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="44.199999999999996" font-weight="700" fill="#E8ECF2">SA</text>
+  </g>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <g class="fu" style="animation-delay:.1s">
+      <rect x="129" y="278" width="282" height="32" rx="16" fill="#FFFFFF" fill-opacity=".04" stroke="#232A36"/>
+      <circle class="ping" cx="149" cy="294" r="5" fill="none" stroke="#3FB950" stroke-width="2"/>
+      <circle class="live" cx="149" cy="294" r="5" fill="#3FB950"/>
+      <text x="165" y="299" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#E8ECF2">NOW @ ATIUM SPORTS</text>
+    </g>
+    <text class="fu" style="animation-delay:.25s" x="270" y="388" text-anchor="middle" font-size="58" font-weight="700" letter-spacing="-1" fill="url(#nameG)">Sujan Anandh</text>
+    <text class="fu" style="animation-delay:.4s" x="270" y="434" text-anchor="middle" font-size="26" fill="#E8ECF2">Frontend Developer Intern</text>
+    <g class="fu" style="animation-delay:.55s">
+      <text x="270" y="486" text-anchor="middle" font-size="21" fill="#8B94A3">Building fast, responsive web apps with</text>
+      <text class="r0" x="270" y="522" text-anchor="middle" font-size="24" font-weight="600" fill="#C8A032">React</text>
+      <text class="r1" x="270" y="522" text-anchor="middle" font-size="24" font-weight="600" fill="#64B4FF">Next.js</text>
+      <text class="r2" x="270" y="522" text-anchor="middle" font-size="24" font-weight="600" fill="#C8A032">TypeScript</text>
+      <text class="r3" x="270" y="522" text-anchor="middle" font-size="24" font-weight="600" fill="#64B4FF">Node.js</text>
+    </g>
+    <g class="fu" style="animation-delay:.7s" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing=".5" fill="#8B94A3" text-anchor="middle">
+      <text x="270" y="584">CHENNAI, INDIA · 2024–2028</text>
+      <text x="270" y="612">B.TECH CSE (AI &amp; ML) @ AMET × KALVIUM</text>
+    </g>
+  </g>
+</svg>

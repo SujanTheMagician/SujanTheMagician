@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="610" viewBox="0 0 540 610" role="img" aria-label="Tech stack: React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML / CSS; Node.js, Express, Prisma, PostgreSQL, MongoDB, Java; Git, Vercel, Netlify, Clerk, Gemini API">
+  <style>
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+  @keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 14; opacity: 0; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(60px, 30px); } }
+  @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-50px, -25px); } }
+  @keyframes sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+  .fu { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+  .live { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ring 2s ease-out infinite; }
+</style>
+  <rect x=".5" y=".5" width="539" height="609" rx="18" fill="#10141B" stroke="#232A36"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text class="fu" style="animation-delay:0.00s" x="32" y="54" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="2" fill="#8B94A3">FRONTEND</text>
+    <g class="fu" style="animation-delay:0.10s">
+      <rect x="32" y="70" width="114" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="94" r="5.4" fill="#64B4FF"/>
+      <text x="74" y="101.2" font-size="20" fill="#E8ECF2">React</text>
+    </g>
+    <g class="fu" style="animation-delay:0.17s">
+      <rect x="156" y="70" width="136" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="182" cy="94" r="5.4" fill="#64B4FF"/>
+      <text x="198" y="101.2" font-size="20" fill="#E8ECF2">Next.js</text>
+    </g>
+    <g class="fu" style="animation-delay:0.24s">
+      <rect x="302" y="70" width="170" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="328" cy="94" r="5.4" fill="#64B4FF"/>
+      <text x="344" y="101.2" font-size="20" fill="#E8ECF2">TypeScript</text>
+    </g>
+    <g class="fu" style="animation-delay:0.31s">
+      <rect x="32" y="128" width="170" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="152" r="5.4" fill="#64B4FF"/>
+      <text x="74" y="159.2" font-size="20" fill="#E8ECF2">JavaScript</text>
+    </g>
+    <g class="fu" style="animation-delay:0.38s">
+      <rect x="212" y="128" width="192" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="238" cy="152" r="5.4" fill="#64B4FF"/>
+      <text x="254" y="159.2" font-size="20" fill="#E8ECF2">Tailwind CSS</text>
+    </g>
+    <g class="fu" style="animation-delay:0.45s">
+      <rect x="32" y="186" width="170" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="210" r="5.4" fill="#64B4FF"/>
+      <text x="74" y="217.2" font-size="20" fill="#E8ECF2">HTML / CSS</text>
+    </g>
+    <text class="fu" style="animation-delay:0.20s" x="32" y="284" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="2" fill="#8B94A3">BACKEND</text>
+    <g class="fu" style="animation-delay:0.30s">
+      <rect x="32" y="300" width="136" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="324" r="5.4" fill="#C8A032"/>
+      <text x="74" y="331.2" font-size="20" fill="#E8ECF2">Node.js</text>
+    </g>
+    <g class="fu" style="animation-delay:0.37s">
+      <rect x="178" y="300" width="136" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="204" cy="324" r="5.4" fill="#C8A032"/>
+      <text x="220" y="331.2" font-size="20" fill="#E8ECF2">Express</text>
+    </g>
+    <g class="fu" style="animation-delay:0.44s">
+      <rect x="324" y="300" width="125" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="350" cy="324" r="5.4" fill="#C8A032"/>
+      <text x="366" y="331.2" font-size="20" fill="#E8ECF2">Prisma</text>
+    </g>
+    <g class="fu" style="animation-delay:0.51s">
+      <rect x="32" y="358" width="170" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="382" r="5.4" fill="#C8A032"/>
+      <text x="74" y="389.2" font-size="20" fill="#E8ECF2">PostgreSQL</text>
+    </g>
+    <g class="fu" style="animation-delay:0.58s">
+      <rect x="212" y="358" width="136" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="238" cy="382" r="5.4" fill="#C8A032"/>
+      <text x="254" y="389.2" font-size="20" fill="#E8ECF2">MongoDB</text>
+    </g>
+    <g class="fu" style="animation-delay:0.65s">
+      <rect x="358" y="358" width="103" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="384" cy="382" r="5.4" fill="#C8A032"/>
+      <text x="400" y="389.2" font-size="20" fill="#E8ECF2">Java</text>
+    </g>
+    <text class="fu" style="animation-delay:0.40s" x="32" y="456" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="2" fill="#8B94A3">TOOLS</text>
+    <g class="fu" style="animation-delay:0.50s">
+      <rect x="32" y="472" width="92" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="496" r="5.4" fill="#A9B4C4"/>
+      <text x="74" y="503.2" font-size="20" fill="#E8ECF2">Git</text>
+    </g>
+    <g class="fu" style="animation-delay:0.57s">
+      <rect x="134" y="472" width="125" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="160" cy="496" r="5.4" fill="#A9B4C4"/>
+      <text x="176" y="503.2" font-size="20" fill="#E8ECF2">Vercel</text>
+    </g>
+    <g class="fu" style="animation-delay:0.64s">
+      <rect x="269" y="472" width="136" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="295" cy="496" r="5.4" fill="#A9B4C4"/>
+      <text x="311" y="503.2" font-size="20" fill="#E8ECF2">Netlify</text>
+    </g>
+    <g class="fu" style="animation-delay:0.71s">
+      <rect x="32" y="530" width="114" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="554" r="5.4" fill="#A9B4C4"/>
+      <text x="74" y="561.2" font-size="20" fill="#E8ECF2">Clerk</text>
+    </g>
+    <g class="fu" style="animation-delay:0.78s">
+      <rect x="156" y="530" width="170" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="182" cy="554" r="5.4" fill="#A9B4C4"/>
+      <text x="198" y="561.2" font-size="20" fill="#E8ECF2">Gemini API</text>
+    </g>
+  </g>
+</svg>

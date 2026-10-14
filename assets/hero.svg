@@ -1,21 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Sujan Anandh, Frontend Developer Intern at ATIUM Sports">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0E1219"/><stop offset="1" stop-color="#0B0E14"/>
-    </linearGradient>
-    <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#C8A032"/><stop offset=".5" stop-color="#64B4FF"/><stop offset="1" stop-color="#C8A032" stop-opacity=".1"/>
-    </linearGradient>
-    <linearGradient id="nameG" x1="0" x2="1">
-      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C9D6E8"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1219"/><stop offset="1" stop-color="#0B0E14"/></linearGradient>
+    <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C8A032"/><stop offset=".5" stop-color="#64B4FF"/><stop offset="1" stop-color="#C8A032" stop-opacity=".1"/></linearGradient>
+    <linearGradient id="nameG" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C9D6E8"/></linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" opacity=".06"/></pattern>
     <clipPath id="clip"><rect width="1200" height="380" rx="18"/></clipPath>
   </defs>
   <style>
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
-  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
   @keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 14; opacity: 0; } }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -23,6 +16,8 @@
   @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-50px, -25px); } }
   @keyframes sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
   .fu { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+  .live { animation: pulse 2s ease-in-out infinite; }
+  .ping { animation: ring 2s ease-out infinite; }
 
     @keyframes role {
     0% { opacity: 0; transform: translateY(10px); }
@@ -39,19 +34,23 @@
     .o2 { animation: drift2 18s ease-in-out infinite; }
     .spin { transform-origin: 960px 190px; animation: spin 10s linear infinite; }
     .spinR { transform-origin: 960px 190px; animation: spin 16s linear infinite reverse; }
-    .live { animation: pulse 2s ease-in-out infinite; }
-    .ping { animation: ring 2s ease-out infinite; }
   </style>
   <g clip-path="url(#clip)">
     <rect width="1200" height="380" fill="url(#bg)"/>
     <g filter="url(#blur)">
       <circle class="o1" cx="180" cy="40" r="170" fill="#C8A032" opacity=".22"/>
-      <circle class="o2" cx="1000" cy="340" r="200" fill="#64B4FF" opacity=".20"/>
+      <circle class="o2" cx="1020" cy="340" r="200" fill="#64B4FF" opacity=".20"/>
     </g>
     <rect width="1200" height="380" fill="url(#dots)"/>
   </g>
   <rect x=".5" y=".5" width="1199" height="379" rx="18" fill="none" stroke="#232A36"/>
-
+  <g class="fu" style="animation-delay:.3s">
+    <circle cx="960" cy="190" r="118" fill="none" stroke="#232A36" stroke-dasharray="2 8"/>
+    <g class="spinR"><circle cx="960" cy="190" r="118" fill="none" stroke="#64B4FF" stroke-opacity=".5" stroke-width="2" stroke-dasharray="40 700" stroke-linecap="round"/></g>
+    <g class="spin"><circle cx="960" cy="190" r="96" fill="none" stroke="url(#ringG)" stroke-width="3"/></g>
+    <circle cx="960" cy="190" r="84" fill="#10141B" stroke="#232A36"/>
+    <text x="960" y="208" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#E8ECF2">SA</text>
+  </g>
   <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
     <g class="fu" style="animation-delay:.1s">
       <rect x="64" y="64" width="282" height="32" rx="16" fill="#FFFFFF" fill-opacity=".04" stroke="#232A36"/>
@@ -63,21 +62,11 @@
     <text class="fu" style="animation-delay:.4s" x="64" y="218" font-size="24" fill="#E8ECF2">Frontend Developer Intern</text>
     <g class="fu" style="animation-delay:.55s">
       <text x="64" y="262" font-size="20" fill="#8B94A3">Building fast, responsive web apps with</text>
-      <text class="r0" x="414" y="262" font-size="20" font-weight="600" fill="#C8A032">React</text>
-      <text class="r1" x="414" y="262" font-size="20" font-weight="600" fill="#64B4FF">Next.js</text>
-      <text class="r2" x="414" y="262" font-size="20" font-weight="600" fill="#C8A032">TypeScript</text>
-      <text class="r3" x="414" y="262" font-size="20" font-weight="600" fill="#64B4FF">Node.js</text>
+      <text class="r0" x="414" y="262" text-anchor="start" font-size="20" font-weight="600" fill="#C8A032">React</text>
+      <text class="r1" x="414" y="262" text-anchor="start" font-size="20" font-weight="600" fill="#64B4FF">Next.js</text>
+      <text class="r2" x="414" y="262" text-anchor="start" font-size="20" font-weight="600" fill="#C8A032">TypeScript</text>
+      <text class="r3" x="414" y="262" text-anchor="start" font-size="20" font-weight="600" fill="#64B4FF">Node.js</text>
     </g>
-    <g class="fu" style="animation-delay:.7s" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing=".5" fill="#8B94A3">
-      <text x="64" y="318" xml:space="preserve">CHENNAI, INDIA   ·   B.TECH CSE (AI &amp; ML) @ AMET × KALVIUM   ·   2024–2028</text>
-    </g>
-  </g>
-
-  <g class="fu" style="animation-delay:.3s">
-    <circle cx="960" cy="190" r="118" fill="none" stroke="#232A36" stroke-dasharray="2 8"/>
-    <g class="spinR"><circle cx="960" cy="190" r="118" fill="none" stroke="#64B4FF" stroke-opacity=".5" stroke-width="2" stroke-dasharray="40 700" stroke-linecap="round"/></g>
-    <g class="spin"><circle cx="960" cy="190" r="96" fill="none" stroke="url(#ringG)" stroke-width="3"/></g>
-    <circle cx="960" cy="190" r="84" fill="#10141B" stroke="#232A36"/>
-    <text x="960" y="208" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#E8ECF2">SA</text>
+    <text class="fu" style="animation-delay:.7s" x="64" y="318" xml:space="preserve" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing=".5" fill="#8B94A3">CHENNAI, INDIA   ·   B.TECH CSE (AI &amp; ML) @ AMET × KALVIUM   ·   2024–2028</text>
   </g>
 </svg>
