@@ -19,6 +19,10 @@ I'm a frontend developer intern at **ATIUM Sports** (Scermlind Healthcare Innova
 ## Featured Projects
 
 <p align="center">
+  <img src="assets/featured-atium-assets.svg" width="100%" alt="ATIUM Assets — QR-verified asset custody tracking app for ATIUM Sports; my first production app, co-built with the ATIUM Sports team. Flutter, Dart." />
+</p>
+
+<p align="center">
   <a href="https://ai-project-builder-jade.vercel.app"><img src="assets/project-ai-project-builder.svg" width="49%" alt="ProjectAI" /></a>
   <a href="https://github.com/SujanTheMagician/experience-ledger"><img src="assets/project-experience-ledger.svg" width="49%" alt="Experience Ledger" /></a>
   <a href="https://github.com/SujanTheMagician/StudyHub"><img src="assets/project-studyhub.svg" width="49%" alt="StudyHub" /></a>

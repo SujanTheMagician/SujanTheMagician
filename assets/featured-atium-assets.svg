@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="ATIUM Assets: QR-verified custody tracking for ATIUM Sports' physical assets: check-out, returns, internal transfers and maintenance, with role-based access for staff, managers and admins. My first production app, co-built with the ATIUM Sports team.">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121820"/><stop offset="1" stop-color="#10141B"/></linearGradient>
+    <linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#C8A032" stop-opacity="0"/><stop offset=".5" stop-color="#C8A032"/><stop offset="1" stop-color="#C8A032" stop-opacity="0"/></linearGradient>
+    <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3FB950" stop-opacity="0"/><stop offset="1" stop-color="#3FB950" stop-opacity=".35"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="c"><rect width="1200" height="300" rx="18"/></clipPath>
+    <clipPath id="q"><rect x="934" y="46" width="180" height="180" rx="10"/></clipPath>
+  </defs>
+  <style>
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+  @keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 14; opacity: 0; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(60px, 30px); } }
+  @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-50px, -25px); } }
+  @keyframes sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+  .fu { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+
+    @keyframes scan { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(128px); } }
+    @keyframes ok { 0%, 40% { opacity: 0; } 50%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    .sw { animation: sweep 4s ease-in-out infinite; }
+    .scan { animation: scan 3.2s ease-in-out infinite; }
+    .ok { animation: ok 6.4s ease-in-out infinite; }
+    .o1 { animation: drift2 16s ease-in-out infinite; }
+  </style>
+  <g class="fu">
+    <g clip-path="url(#c)">
+      <rect width="1200" height="300" fill="url(#fbg)"/>
+      <circle class="o1" cx="1020" cy="140" r="150" fill="#3FB950" opacity=".10" filter="url(#blur)"/>
+      <rect width="1200" height="3" fill="#C8A032" opacity=".35"/>
+      <rect class="sw" width="1200" height="3" fill="url(#sh)"/>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="299" rx="18" fill="none" stroke="#232A36"/>
+    <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+      <text x="48" y="58" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#C8A032">★ FEATURED · BUILT AT ATIUM SPORTS</text>
+      <rect x="400" y="40" width="96" height="26" rx="13" fill="#64B4FF" fill-opacity=".10" stroke="#64B4FF" stroke-opacity=".5"/>
+      <text x="448" y="58" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="1" fill="#64B4FF">INTERNAL</text>
+      <text x="48" y="110" font-size="38" font-weight="700" letter-spacing="-.5" fill="#E8ECF2">ATIUM Assets</text>
+      <text x="48" y="148" font-size="17" fill="#8B94A3">QR-verified custody tracking for ATIUM Sports' physical assets: check-out,</text>
+      <text x="48" y="174" font-size="17" fill="#8B94A3">returns, internal transfers and maintenance, with role-based access for</text>
+      <text x="48" y="200" font-size="17" fill="#8B94A3">staff, managers and admins.</text>
+      <text x="48" y="232" font-size="15" font-style="italic" fill="#E8ECF2" opacity=".85">My first production app, co-built with the ATIUM Sports team.</text>
+      <rect x="48" y="248" width="79" height="28" rx="6" fill="#FFFFFF" fill-opacity=".04" stroke="#232A36"/>
+      <text x="60" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#8B94A3">Flutter</text><rect x="135" y="248" width="55" height="28" rx="6" fill="#FFFFFF" fill-opacity=".04" stroke="#232A36"/>
+      <text x="147" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#8B94A3">Dart</text>
+    </g>
+    <g>
+      <rect x="926" y="38" width="196" height="196" rx="14" fill="#0B0E14" stroke="#232A36"/>
+      <g fill="#E8ECF2" opacity=".85"><rect x="1004" y="52" width="7" height="7" rx="1.5"/><rect x="996" y="60" width="7" height="7" rx="1.5"/><rect x="1004" y="60" width="7" height="7" rx="1.5"/><rect x="1028" y="60" width="7" height="7" rx="1.5"/><rect x="1036" y="60" width="7" height="7" rx="1.5"/><rect x="1012" y="68" width="7" height="7" rx="1.5"/><rect x="1028" y="68" width="7" height="7" rx="1.5"/><rect x="1004" y="76" width="7" height="7" rx="1.5"/><rect x="1012" y="76" width="7" height="7" rx="1.5"/><rect x="1036" y="76" width="7" height="7" rx="1.5"/><rect x="1004" y="84" width="7" height="7" rx="1.5"/><rect x="1012" y="84" width="7" height="7" rx="1.5"/><rect x="1036" y="84" width="7" height="7" rx="1.5"/><rect x="1004" y="92" width="7" height="7" rx="1.5"/><rect x="1028" y="92" width="7" height="7" rx="1.5"/><rect x="1004" y="100" width="7" height="7" rx="1.5"/><rect x="1020" y="100" width="7" height="7" rx="1.5"/><rect x="1044" y="100" width="7" height="7" rx="1.5"/><rect x="948" y="108" width="7" height="7" rx="1.5"/><rect x="956" y="108" width="7" height="7" rx="1.5"/><rect x="1012" y="108" width="7" height="7" rx="1.5"/><rect x="1020" y="108" width="7" height="7" rx="1.5"/><rect x="1028" y="108" width="7" height="7" rx="1.5"/><rect x="1068" y="108" width="7" height="7" rx="1.5"/><rect x="940" y="116" width="7" height="7" rx="1.5"/><rect x="964" y="116" width="7" height="7" rx="1.5"/><rect x="972" y="116" width="7" height="7" rx="1.5"/><rect x="980" y="116" width="7" height="7" rx="1.5"/><rect x="988" y="116" width="7" height="7" rx="1.5"/><rect x="996" y="116" width="7" height="7" rx="1.5"/><rect x="1004" y="116" width="7" height="7" rx="1.5"/><rect x="1012" y="116" width="7" height="7" rx="1.5"/><rect x="1020" y="116" width="7" height="7" rx="1.5"/><rect x="1068" y="116" width="7" height="7" rx="1.5"/><rect x="1076" y="116" width="7" height="7" rx="1.5"/><rect x="1092" y="116" width="7" height="7" rx="1.5"/><rect x="948" y="124" width="7" height="7" rx="1.5"/><rect x="972" y="124" width="7" height="7" rx="1.5"/><rect x="988" y="124" width="7" height="7" rx="1.5"/><rect x="996" y="124" width="7" height="7" rx="1.5"/><rect x="1020" y="124" width="7" height="7" rx="1.5"/><rect x="1028" y="124" width="7" height="7" rx="1.5"/><rect x="1060" y="124" width="7" height="7" rx="1.5"/><rect x="1068" y="124" width="7" height="7" rx="1.5"/><rect x="1076" y="124" width="7" height="7" rx="1.5"/><rect x="1084" y="124" width="7" height="7" rx="1.5"/><rect x="1100" y="124" width="7" height="7" rx="1.5"/><rect x="972" y="132" width="7" height="7" rx="1.5"/><rect x="980" y="132" width="7" height="7" rx="1.5"/><rect x="988" y="132" width="7" height="7" rx="1.5"/><rect x="1068" y="132" width="7" height="7" rx="1.5"/><rect x="1100" y="132" width="7" height="7" rx="1.5"/><rect x="988" y="140" width="7" height="7" rx="1.5"/><rect x="1004" y="140" width="7" height="7" rx="1.5"/><rect x="1020" y="140" width="7" height="7" rx="1.5"/><rect x="1028" y="140" width="7" height="7" rx="1.5"/><rect x="1036" y="140" width="7" height="7" rx="1.5"/><rect x="1068" y="140" width="7" height="7" rx="1.5"/><rect x="948" y="148" width="7" height="7" rx="1.5"/><rect x="972" y="148" width="7" height="7" rx="1.5"/><rect x="980" y="148" width="7" height="7" rx="1.5"/><rect x="988" y="148" width="7" height="7" rx="1.5"/><rect x="1012" y="148" width="7" height="7" rx="1.5"/><rect x="1020" y="148" width="7" height="7" rx="1.5"/><rect x="1036" y="148" width="7" height="7" rx="1.5"/><rect x="1044" y="148" width="7" height="7" rx="1.5"/><rect x="1060" y="148" width="7" height="7" rx="1.5"/><rect x="1068" y="148" width="7" height="7" rx="1.5"/><rect x="1092" y="148" width="7" height="7" rx="1.5"/><rect x="1100" y="148" width="7" height="7" rx="1.5"/><rect x="940" y="156" width="7" height="7" rx="1.5"/><rect x="948" y="156" width="7" height="7" rx="1.5"/><rect x="956" y="156" width="7" height="7" rx="1.5"/><rect x="964" y="156" width="7" height="7" rx="1.5"/><rect x="972" y="156" width="7" height="7" rx="1.5"/><rect x="996" y="156" width="7" height="7" rx="1.5"/><rect x="1004" y="156" width="7" height="7" rx="1.5"/><rect x="1012" y="156" width="7" height="7" rx="1.5"/><rect x="1028" y="156" width="7" height="7" rx="1.5"/><rect x="1036" y="156" width="7" height="7" rx="1.5"/><rect x="1060" y="156" width="7" height="7" rx="1.5"/><rect x="1068" y="156" width="7" height="7" rx="1.5"/><rect x="1100" y="156" width="7" height="7" rx="1.5"/><rect x="996" y="164" width="7" height="7" rx="1.5"/><rect x="1012" y="164" width="7" height="7" rx="1.5"/><rect x="1036" y="164" width="7" height="7" rx="1.5"/><rect x="1060" y="164" width="7" height="7" rx="1.5"/><rect x="1100" y="164" width="7" height="7" rx="1.5"/><rect x="1004" y="172" width="7" height="7" rx="1.5"/><rect x="1020" y="172" width="7" height="7" rx="1.5"/><rect x="1028" y="172" width="7" height="7" rx="1.5"/><rect x="1044" y="172" width="7" height="7" rx="1.5"/><rect x="1076" y="172" width="7" height="7" rx="1.5"/><rect x="1084" y="172" width="7" height="7" rx="1.5"/><rect x="1052" y="180" width="7" height="7" rx="1.5"/><rect x="1068" y="180" width="7" height="7" rx="1.5"/><rect x="1076" y="180" width="7" height="7" rx="1.5"/><rect x="1020" y="188" width="7" height="7" rx="1.5"/><rect x="1028" y="188" width="7" height="7" rx="1.5"/><rect x="1044" y="188" width="7" height="7" rx="1.5"/><rect x="1076" y="188" width="7" height="7" rx="1.5"/><rect x="1100" y="188" width="7" height="7" rx="1.5"/><rect x="996" y="196" width="7" height="7" rx="1.5"/><rect x="1004" y="196" width="7" height="7" rx="1.5"/><rect x="1020" y="196" width="7" height="7" rx="1.5"/><rect x="1028" y="196" width="7" height="7" rx="1.5"/><rect x="1068" y="196" width="7" height="7" rx="1.5"/><rect x="1076" y="196" width="7" height="7" rx="1.5"/><rect x="1084" y="196" width="7" height="7" rx="1.5"/><rect x="1012" y="204" width="7" height="7" rx="1.5"/><rect x="1020" y="204" width="7" height="7" rx="1.5"/><rect x="1028" y="204" width="7" height="7" rx="1.5"/><rect x="1036" y="204" width="7" height="7" rx="1.5"/><rect x="1052" y="204" width="7" height="7" rx="1.5"/><rect x="1068" y="204" width="7" height="7" rx="1.5"/><rect x="1076" y="204" width="7" height="7" rx="1.5"/><rect x="1084" y="204" width="7" height="7" rx="1.5"/><rect x="996" y="212" width="7" height="7" rx="1.5"/><rect x="1004" y="212" width="7" height="7" rx="1.5"/><rect x="1028" y="212" width="7" height="7" rx="1.5"/><rect x="1036" y="212" width="7" height="7" rx="1.5"/><rect x="1044" y="212" width="7" height="7" rx="1.5"/><rect x="1052" y="212" width="7" height="7" rx="1.5"/><rect x="1060" y="212" width="7" height="7" rx="1.5"/><rect x="1100" y="212" width="7" height="7" rx="1.5"/></g>
+      <rect x="942" y="54" width="51" height="51" rx="6" fill="none" stroke="#E8ECF2" stroke-width="5"/>
+      <rect x="956" y="68" width="23" height="23" rx="3" fill="#E8ECF2"/><rect x="1054" y="54" width="51" height="51" rx="6" fill="none" stroke="#E8ECF2" stroke-width="5"/>
+      <rect x="1068" y="68" width="23" height="23" rx="3" fill="#E8ECF2"/><rect x="942" y="166" width="51" height="51" rx="6" fill="none" stroke="#E8ECF2" stroke-width="5"/>
+      <rect x="956" y="180" width="23" height="23" rx="3" fill="#E8ECF2"/>
+      <g clip-path="url(#q)"><g class="scan">
+        <rect x="934" y="46" width="180" height="34" fill="url(#scanG)"/>
+        <rect x="934" y="79" width="180" height="2" fill="#3FB950"/>
+      </g></g>
+      <g class="ok">
+        <rect x="962" y="244" width="124" height="28" rx="14" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".6"/>
+        <text x="1024" y="263" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="1" fill="#3FB950">✓ VERIFIED</text>
+      </g>
+    </g>
+  </g>
+</svg>
