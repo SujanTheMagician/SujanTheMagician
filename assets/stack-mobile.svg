@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="610" viewBox="0 0 540 610" role="img" aria-label="Tech stack: React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML / CSS; Node.js, Express, Prisma, PostgreSQL, MongoDB, Java; Git, Vercel, Netlify, Clerk, Gemini API">
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="668" viewBox="0 0 540 668" role="img" aria-label="Tech stack: React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML / CSS; Node.js, Express, Prisma, PostgreSQL, MongoDB, Java; Git, Vercel, Netlify, Clerk, Gemini API, React Native, Expo, Supabase">
   <style>
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
@@ -11,7 +11,7 @@
   .live { animation: pulse 2s ease-in-out infinite; }
   .ping { animation: ring 2s ease-out infinite; }
 </style>
-  <rect x=".5" y=".5" width="539" height="609" rx="18" fill="#10141B" stroke="#232A36"/>
+  <rect x=".5" y=".5" width="539" height="667" rx="18" fill="#10141B" stroke="#232A36"/>
   <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
     <text class="fu" style="animation-delay:0.00s" x="32" y="54" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="2" fill="#8B94A3">FRONTEND</text>
     <g class="fu" style="animation-delay:0.10s">
@@ -100,6 +100,21 @@
       <rect x="156" y="530" width="170" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
       <circle cx="182" cy="554" r="5.4" fill="#A9B4C4"/>
       <text x="198" y="561.2" font-size="20" fill="#E8ECF2">Gemini API</text>
+    </g>
+    <g class="fu" style="animation-delay:0.85s">
+      <rect x="32" y="588" width="194" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="58" cy="612" r="5.4" fill="#A9B4C4"/>
+      <text x="74" y="619.2" font-size="20" fill="#E8ECF2">React Native</text>
+    </g>
+    <g class="fu" style="animation-delay:0.92s">
+      <rect x="236" y="588" width="106" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="262" cy="612" r="5.4" fill="#A9B4C4"/>
+      <text x="278" y="619.2" font-size="20" fill="#E8ECF2">Expo</text>
+    </g>
+    <g class="fu" style="animation-delay:0.99s">
+      <rect x="352" y="588" width="150" height="48" rx="24" fill="#FFFFFF" fill-opacity=".03" stroke="#232A36"/>
+      <circle cx="378" cy="612" r="5.4" fill="#A9B4C4"/>
+      <text x="394" y="619.2" font-size="20" fill="#E8ECF2">Supabase</text>
     </g>
   </g>
 </svg>
