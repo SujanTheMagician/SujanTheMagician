@@ -1,7 +1,7 @@
 <p align="center">
 <picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/SujanTheMagician/SujanTheMagician/main/assets/hero-mobile.svg" />
-  <img src="assets/hero.svg" width="100%" alt="Sujan Anandh — Frontend Developer Intern at ATIUM Sports" />
+  <img src="assets/hero.svg" width="100%" alt="Sujan Anandh — Software Developer Intern at ATIUM Sports" />
 </picture>
 </p>
 
